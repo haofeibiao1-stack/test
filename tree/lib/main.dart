@@ -32,8 +32,8 @@ void main() {
           // 5. 网络图片：修复excludeFromSemantics拼写（原代码少了s）
           Image.network(
             imageUrl,
-            width: 1000, // 原案例指定的宽度
-            height: 1000, // 补充高度，避免图片拉伸变形
+            width: 100, // 原案例指定的宽度
+            height: 100, // 补充高度，避免图片拉伸变形
             excludeFromSemantics: true, // 修复拼写错误
             // 图片加载中/失败的占位（可选，提升用户体验）
             loadingBuilder: (context, child, loadingProgress) {
